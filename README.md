@@ -17,3 +17,5 @@
 - Properties
 - Protocols
 - Extensions
+
+#### Deadline: next Thursday by 9:00 a.m.
