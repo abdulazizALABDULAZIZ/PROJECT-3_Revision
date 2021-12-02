@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19162" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19144"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Leonardo-RikReimert-Poster" translatesAutoresizingMaskIntoConstraints="NO" id="9Vw-i6-eFS">
+                                <rect key="frame" x="0.0" y="-29" width="414" height="987"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Enjoy watching the best movies" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="98m-Kk-RKK">
+                                <rect key="frame" x="25" y="530" width="365" height="33"/>
+                                <color key="backgroundColor" systemColor="opaqueSeparatorColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="33" id="8m0-qL-psM"/>
+                                    <constraint firstAttribute="width" constant="365" id="Fhk-fl-s7d"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="98m-Kk-RKK" secondAttribute="trailing" constant="24" id="3vf-ck-2VC"/>
+                            <constraint firstAttribute="bottom" secondItem="9Vw-i6-eFS" secondAttribute="bottom" constant="-62" id="GWg-KV-8r5"/>
+                            <constraint firstItem="9Vw-i6-eFS" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="RCz-ms-Gab"/>
+                            <constraint firstItem="98m-Kk-RKK" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="25" id="YLU-oU-Vgt"/>
+                            <constraint firstItem="98m-Kk-RKK" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="486" id="gEg-iY-kVF"/>
+                            <constraint firstItem="9Vw-i6-eFS" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="jnB-mH-ZbN"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="98m-Kk-RKK" secondAttribute="bottom" constant="299" id="lGN-0i-8xK"/>
+                            <constraint firstItem="9Vw-i6-eFS" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="top" constant="-29" id="n7o-3t-NnH"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="52.173913043478265" y="375"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Leonardo-RikReimert-Poster" width="779" height="800"/>
+        <systemColor name="opaqueSeparatorColor">
+            <color red="0.77647058823529413" green="0.77647058823529413" blue="0.78431372549019607" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

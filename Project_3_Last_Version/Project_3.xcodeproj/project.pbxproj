@@ -1,0 +1,433 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FA8EF22B2754A84E0038D776 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA8EF22A2754A84E0038D776 /* AppDelegate.swift */; };
+		FA8EF22D2754A84E0038D776 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA8EF22C2754A84E0038D776 /* SceneDelegate.swift */; };
+		FA8EF22F2754A84E0038D776 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA8EF22E2754A84E0038D776 /* ViewController.swift */; };
+		FA8EF2322754A84E0038D776 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA8EF2302754A84E0038D776 /* Main.storyboard */; };
+		FA8EF2342754A84F0038D776 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA8EF2332754A84F0038D776 /* Assets.xcassets */; };
+		FA8EF2372754A84F0038D776 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA8EF2352754A84F0038D776 /* LaunchScreen.storyboard */; };
+		FA8EF24227552FEC0038D776 /* BookTicketViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA8EF24127552FEC0038D776 /* BookTicketViewController.swift */; };
+		FA8EF244275532A00038D776 /* moviesStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA8EF243275532A00038D776 /* moviesStore.swift */; };
+		FA8EF24627553CC40038D776 /* bookTickets.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA8EF24527553CC40038D776 /* bookTickets.swift */; };
+		FA8EF24827553DED0038D776 /* Calculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA8EF24727553DED0038D776 /* Calculator.swift */; };
+		FA8EF24A27553ED40038D776 /* checkOutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA8EF24927553ED40038D776 /* checkOutViewController.swift */; };
+		FA8EF24C27555CFA0038D776 /* movieVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA8EF24B27555CFA0038D776 /* movieVC.swift */; };
+		FA8EF24E275562950038D776 /* y2mate.com - The Godfather Trailer HD_1080p.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = FA8EF24D275562950038D776 /* y2mate.com - The Godfather Trailer HD_1080p.mp4 */; };
+		FA8EF250275694740038D776 /* y2mate.com - The Wolf of Wall Street Official Trailer 2 2013  Leonardo DiCaprio Movie HD_1080p.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = FA8EF24F275694740038D776 /* y2mate.com - The Wolf of Wall Street Official Trailer 2 2013  Leonardo DiCaprio Movie HD_1080p.mp4 */; };
+		FA8EF252275695BC0038D776 /* Movie2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA8EF251275695BC0038D776 /* Movie2ViewController.swift */; };
+		FA8EF254275696B30038D776 /* Goodfellas (1990) Official Trailer #1 - Martin Scorsese Movie.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = FA8EF253275696B30038D776 /* Goodfellas (1990) Official Trailer #1 - Martin Scorsese Movie.mp4 */; };
+		FA8EF25F2757A9540038D776 /* moviesStore+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA8EF25E2757A9540038D776 /* moviesStore+Extension.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		FA8EF2272754A84E0038D776 /* Project_3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Project_3.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA8EF22A2754A84E0038D776 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FA8EF22C2754A84E0038D776 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		FA8EF22E2754A84E0038D776 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FA8EF2312754A84E0038D776 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FA8EF2332754A84F0038D776 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FA8EF2362754A84F0038D776 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FA8EF2382754A84F0038D776 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA8EF24127552FEC0038D776 /* BookTicketViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookTicketViewController.swift; sourceTree = "<group>"; };
+		FA8EF243275532A00038D776 /* moviesStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = moviesStore.swift; sourceTree = "<group>"; };
+		FA8EF24527553CC40038D776 /* bookTickets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = bookTickets.swift; sourceTree = "<group>"; };
+		FA8EF24727553DED0038D776 /* Calculator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Calculator.swift; sourceTree = "<group>"; };
+		FA8EF24927553ED40038D776 /* checkOutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = checkOutViewController.swift; sourceTree = "<group>"; };
+		FA8EF24B27555CFA0038D776 /* movieVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = movieVC.swift; sourceTree = "<group>"; };
+		FA8EF24D275562950038D776 /* y2mate.com - The Godfather Trailer HD_1080p.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "y2mate.com - The Godfather Trailer HD_1080p.mp4"; sourceTree = "<group>"; };
+		FA8EF24F275694740038D776 /* y2mate.com - The Wolf of Wall Street Official Trailer 2 2013  Leonardo DiCaprio Movie HD_1080p.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "y2mate.com - The Wolf of Wall Street Official Trailer 2 2013  Leonardo DiCaprio Movie HD_1080p.mp4"; sourceTree = "<group>"; };
+		FA8EF251275695BC0038D776 /* Movie2ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Movie2ViewController.swift; sourceTree = "<group>"; };
+		FA8EF253275696B30038D776 /* Goodfellas (1990) Official Trailer #1 - Martin Scorsese Movie.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Goodfellas (1990) Official Trailer #1 - Martin Scorsese Movie.mp4"; sourceTree = "<group>"; };
+		FA8EF25E2757A9540038D776 /* moviesStore+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "moviesStore+Extension.swift"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FA8EF2242754A84E0038D776 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FA8EF21E2754A84E0038D776 = {
+			isa = PBXGroup;
+			children = (
+				FA8EF2292754A84E0038D776 /* Project_3 */,
+				FA8EF2282754A84E0038D776 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FA8EF2282754A84E0038D776 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FA8EF2272754A84E0038D776 /* Project_3.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FA8EF2292754A84E0038D776 /* Project_3 */ = {
+			isa = PBXGroup;
+			children = (
+				FA8EF24027552ED10038D776 /* Controller */,
+				FA8EF23F2754B9D60038D776 /* MoviesData */,
+				FA8EF23E2754B9C80038D776 /* Model */,
+				FA8EF22A2754A84E0038D776 /* AppDelegate.swift */,
+				FA8EF22C2754A84E0038D776 /* SceneDelegate.swift */,
+				FA8EF2302754A84E0038D776 /* Main.storyboard */,
+				FA8EF2332754A84F0038D776 /* Assets.xcassets */,
+				FA8EF2352754A84F0038D776 /* LaunchScreen.storyboard */,
+				FA8EF2382754A84F0038D776 /* Info.plist */,
+			);
+			path = Project_3;
+			sourceTree = "<group>";
+		};
+		FA8EF23E2754B9C80038D776 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				FA8EF243275532A00038D776 /* moviesStore.swift */,
+				FA8EF24527553CC40038D776 /* bookTickets.swift */,
+				FA8EF24727553DED0038D776 /* Calculator.swift */,
+				FA8EF25E2757A9540038D776 /* moviesStore+Extension.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		FA8EF23F2754B9D60038D776 /* MoviesData */ = {
+			isa = PBXGroup;
+			children = (
+				FA8EF24B27555CFA0038D776 /* movieVC.swift */,
+				FA8EF251275695BC0038D776 /* Movie2ViewController.swift */,
+				FA8EF22E2754A84E0038D776 /* ViewController.swift */,
+				FA8EF24D275562950038D776 /* y2mate.com - The Godfather Trailer HD_1080p.mp4 */,
+				FA8EF24F275694740038D776 /* y2mate.com - The Wolf of Wall Street Official Trailer 2 2013  Leonardo DiCaprio Movie HD_1080p.mp4 */,
+				FA8EF253275696B30038D776 /* Goodfellas (1990) Official Trailer #1 - Martin Scorsese Movie.mp4 */,
+			);
+			path = MoviesData;
+			sourceTree = "<group>";
+		};
+		FA8EF24027552ED10038D776 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				FA8EF24127552FEC0038D776 /* BookTicketViewController.swift */,
+				FA8EF24927553ED40038D776 /* checkOutViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FA8EF2262754A84E0038D776 /* Project_3 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA8EF23B2754A84F0038D776 /* Build configuration list for PBXNativeTarget "Project_3" */;
+			buildPhases = (
+				FA8EF2232754A84E0038D776 /* Sources */,
+				FA8EF2242754A84E0038D776 /* Frameworks */,
+				FA8EF2252754A84E0038D776 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Project_3;
+			productName = Project_3;
+			productReference = FA8EF2272754A84E0038D776 /* Project_3.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FA8EF21F2754A84E0038D776 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+				TargetAttributes = {
+					FA8EF2262754A84E0038D776 = {
+						CreatedOnToolsVersion = 13.0;
+					};
+				};
+			};
+			buildConfigurationList = FA8EF2222754A84E0038D776 /* Build configuration list for PBXProject "Project_3" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FA8EF21E2754A84E0038D776;
+			productRefGroup = FA8EF2282754A84E0038D776 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FA8EF2262754A84E0038D776 /* Project_3 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FA8EF2252754A84E0038D776 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA8EF2372754A84F0038D776 /* LaunchScreen.storyboard in Resources */,
+				FA8EF2342754A84F0038D776 /* Assets.xcassets in Resources */,
+				FA8EF24E275562950038D776 /* y2mate.com - The Godfather Trailer HD_1080p.mp4 in Resources */,
+				FA8EF254275696B30038D776 /* Goodfellas (1990) Official Trailer #1 - Martin Scorsese Movie.mp4 in Resources */,
+				FA8EF2322754A84E0038D776 /* Main.storyboard in Resources */,
+				FA8EF250275694740038D776 /* y2mate.com - The Wolf of Wall Street Official Trailer 2 2013  Leonardo DiCaprio Movie HD_1080p.mp4 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FA8EF2232754A84E0038D776 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA8EF25F2757A9540038D776 /* moviesStore+Extension.swift in Sources */,
+				FA8EF22F2754A84E0038D776 /* ViewController.swift in Sources */,
+				FA8EF24C27555CFA0038D776 /* movieVC.swift in Sources */,
+				FA8EF22B2754A84E0038D776 /* AppDelegate.swift in Sources */,
+				FA8EF24827553DED0038D776 /* Calculator.swift in Sources */,
+				FA8EF252275695BC0038D776 /* Movie2ViewController.swift in Sources */,
+				FA8EF24627553CC40038D776 /* bookTickets.swift in Sources */,
+				FA8EF24A27553ED40038D776 /* checkOutViewController.swift in Sources */,
+				FA8EF22D2754A84E0038D776 /* SceneDelegate.swift in Sources */,
+				FA8EF24227552FEC0038D776 /* BookTicketViewController.swift in Sources */,
+				FA8EF244275532A00038D776 /* moviesStore.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FA8EF2302754A84E0038D776 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FA8EF2312754A84E0038D776 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FA8EF2352754A84F0038D776 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FA8EF2362754A84F0038D776 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FA8EF2392754A84F0038D776 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FA8EF23A2754A84F0038D776 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FA8EF23C2754A84F0038D776 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = K4UDSV47P7;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Project_3/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.google.Project-3";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FA8EF23D2754A84F0038D776 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = K4UDSV47P7;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Project_3/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.google.Project-3";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FA8EF2222754A84E0038D776 /* Build configuration list for PBXProject "Project_3" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA8EF2392754A84F0038D776 /* Debug */,
+				FA8EF23A2754A84F0038D776 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA8EF23B2754A84F0038D776 /* Build configuration list for PBXNativeTarget "Project_3" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA8EF23C2754A84F0038D776 /* Debug */,
+				FA8EF23D2754A84F0038D776 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FA8EF21F2754A84E0038D776 /* Project object */;
+}
