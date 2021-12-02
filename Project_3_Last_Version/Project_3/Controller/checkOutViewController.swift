@@ -16,8 +16,27 @@ class checkOutViewController: UIViewController {
         self.navigationItem.title = "Trailers and payment"
         
     }
-        
+    var selectedIndex: Int?
 
+    @IBAction func firstButton(_ sender: UIButton) {
+        selectedIndex = 2
+        performSegue(withIdentifier: "toNext", sender: nil)
+    }
+    @IBAction func secondButton(_ sender: UIButton) {
+        selectedIndex = 3
+        performSegue(withIdentifier: "toNext", sender: nil)
+    }
+    
+    @IBAction func thirdButton(_ sender: UIButton) {
+        selectedIndex = 1
+        performSegue(withIdentifier: "toNext", sender: nil)
+    }
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        let vc = segue.destination as? ViewController
+        vc?.setSelectedIndex = selectedIndex
+    }
+    
     @IBAction func Complete(_ sender: AnyObject) {
         let alertController = UIAlertController(title: "Confirm Tickets", message: "Please confirm that you want to make a payment of Tickets !", preferredStyle: .alert)
         let cancelAction = UIAlertAction(title: "Cancel", style: .cancel) { (action) in

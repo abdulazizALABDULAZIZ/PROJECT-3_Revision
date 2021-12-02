@@ -18,11 +18,9 @@
 		FA8EF24627553CC40038D776 /* bookTickets.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA8EF24527553CC40038D776 /* bookTickets.swift */; };
 		FA8EF24827553DED0038D776 /* Calculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA8EF24727553DED0038D776 /* Calculator.swift */; };
 		FA8EF24A27553ED40038D776 /* checkOutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA8EF24927553ED40038D776 /* checkOutViewController.swift */; };
-		FA8EF24C27555CFA0038D776 /* movieVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA8EF24B27555CFA0038D776 /* movieVC.swift */; };
-		FA8EF24E275562950038D776 /* y2mate.com - The Godfather Trailer HD_1080p.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = FA8EF24D275562950038D776 /* y2mate.com - The Godfather Trailer HD_1080p.mp4 */; };
-		FA8EF250275694740038D776 /* y2mate.com - The Wolf of Wall Street Official Trailer 2 2013  Leonardo DiCaprio Movie HD_1080p.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = FA8EF24F275694740038D776 /* y2mate.com - The Wolf of Wall Street Official Trailer 2 2013  Leonardo DiCaprio Movie HD_1080p.mp4 */; };
-		FA8EF252275695BC0038D776 /* Movie2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA8EF251275695BC0038D776 /* Movie2ViewController.swift */; };
-		FA8EF254275696B30038D776 /* Goodfellas (1990) Official Trailer #1 - Martin Scorsese Movie.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = FA8EF253275696B30038D776 /* Goodfellas (1990) Official Trailer #1 - Martin Scorsese Movie.mp4 */; };
+		FA8EF24E275562950038D776 /* 1.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = FA8EF24D275562950038D776 /* 1.mp4 */; };
+		FA8EF250275694740038D776 /* 2.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = FA8EF24F275694740038D776 /* 2.mp4 */; };
+		FA8EF254275696B30038D776 /* 3.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = FA8EF253275696B30038D776 /* 3.mp4 */; };
 		FA8EF25F2757A9540038D776 /* moviesStore+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA8EF25E2757A9540038D776 /* moviesStore+Extension.swift */; };
 /* End PBXBuildFile section */
 
@@ -40,11 +38,9 @@
 		FA8EF24527553CC40038D776 /* bookTickets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = bookTickets.swift; sourceTree = "<group>"; };
 		FA8EF24727553DED0038D776 /* Calculator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Calculator.swift; sourceTree = "<group>"; };
 		FA8EF24927553ED40038D776 /* checkOutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = checkOutViewController.swift; sourceTree = "<group>"; };
-		FA8EF24B27555CFA0038D776 /* movieVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = movieVC.swift; sourceTree = "<group>"; };
-		FA8EF24D275562950038D776 /* y2mate.com - The Godfather Trailer HD_1080p.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "y2mate.com - The Godfather Trailer HD_1080p.mp4"; sourceTree = "<group>"; };
-		FA8EF24F275694740038D776 /* y2mate.com - The Wolf of Wall Street Official Trailer 2 2013  Leonardo DiCaprio Movie HD_1080p.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "y2mate.com - The Wolf of Wall Street Official Trailer 2 2013  Leonardo DiCaprio Movie HD_1080p.mp4"; sourceTree = "<group>"; };
-		FA8EF251275695BC0038D776 /* Movie2ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Movie2ViewController.swift; sourceTree = "<group>"; };
-		FA8EF253275696B30038D776 /* Goodfellas (1990) Official Trailer #1 - Martin Scorsese Movie.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Goodfellas (1990) Official Trailer #1 - Martin Scorsese Movie.mp4"; sourceTree = "<group>"; };
+		FA8EF24D275562950038D776 /* 1.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = 1.mp4; sourceTree = "<group>"; };
+		FA8EF24F275694740038D776 /* 2.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = 2.mp4; sourceTree = "<group>"; };
+		FA8EF253275696B30038D776 /* 3.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = 3.mp4; sourceTree = "<group>"; };
 		FA8EF25E2757A9540038D776 /* moviesStore+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "moviesStore+Extension.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -105,12 +101,10 @@
 		FA8EF23F2754B9D60038D776 /* MoviesData */ = {
 			isa = PBXGroup;
 			children = (
-				FA8EF24B27555CFA0038D776 /* movieVC.swift */,
-				FA8EF251275695BC0038D776 /* Movie2ViewController.swift */,
 				FA8EF22E2754A84E0038D776 /* ViewController.swift */,
-				FA8EF24D275562950038D776 /* y2mate.com - The Godfather Trailer HD_1080p.mp4 */,
-				FA8EF24F275694740038D776 /* y2mate.com - The Wolf of Wall Street Official Trailer 2 2013  Leonardo DiCaprio Movie HD_1080p.mp4 */,
-				FA8EF253275696B30038D776 /* Goodfellas (1990) Official Trailer #1 - Martin Scorsese Movie.mp4 */,
+				FA8EF24D275562950038D776 /* 1.mp4 */,
+				FA8EF24F275694740038D776 /* 2.mp4 */,
+				FA8EF253275696B30038D776 /* 3.mp4 */,
 			);
 			path = MoviesData;
 			sourceTree = "<group>";
@@ -184,10 +178,10 @@
 			files = (
 				FA8EF2372754A84F0038D776 /* LaunchScreen.storyboard in Resources */,
 				FA8EF2342754A84F0038D776 /* Assets.xcassets in Resources */,
-				FA8EF24E275562950038D776 /* y2mate.com - The Godfather Trailer HD_1080p.mp4 in Resources */,
-				FA8EF254275696B30038D776 /* Goodfellas (1990) Official Trailer #1 - Martin Scorsese Movie.mp4 in Resources */,
+				FA8EF24E275562950038D776 /* 1.mp4 in Resources */,
+				FA8EF254275696B30038D776 /* 3.mp4 in Resources */,
 				FA8EF2322754A84E0038D776 /* Main.storyboard in Resources */,
-				FA8EF250275694740038D776 /* y2mate.com - The Wolf of Wall Street Official Trailer 2 2013  Leonardo DiCaprio Movie HD_1080p.mp4 in Resources */,
+				FA8EF250275694740038D776 /* 2.mp4 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -200,10 +194,8 @@
 			files = (
 				FA8EF25F2757A9540038D776 /* moviesStore+Extension.swift in Sources */,
 				FA8EF22F2754A84E0038D776 /* ViewController.swift in Sources */,
-				FA8EF24C27555CFA0038D776 /* movieVC.swift in Sources */,
 				FA8EF22B2754A84E0038D776 /* AppDelegate.swift in Sources */,
 				FA8EF24827553DED0038D776 /* Calculator.swift in Sources */,
-				FA8EF252275695BC0038D776 /* Movie2ViewController.swift in Sources */,
 				FA8EF24627553CC40038D776 /* bookTickets.swift in Sources */,
 				FA8EF24A27553ED40038D776 /* checkOutViewController.swift in Sources */,
 				FA8EF22D2754A84E0038D776 /* SceneDelegate.swift in Sources */,

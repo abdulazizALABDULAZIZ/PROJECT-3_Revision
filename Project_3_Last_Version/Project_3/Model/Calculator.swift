@@ -12,8 +12,7 @@ class Calculator {
     var totalBeforeTax:Double
     var shippingCost:Double
     var total:Double
-    
-    private var taxPercentage:Double
+    var taxPercentage:Double
     
     init(totalBeforeTax:Double,shippingCost:Double,total:Double,taxPercentage:Double){
         

@@ -12,21 +12,23 @@ import AVKit
 
 class ViewController: UIViewController {
 
+    
+    var setSelectedIndex: Int?
+    var selectedIndex: Int?
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
-        getMovie()
+        selectedIndex = setSelectedIndex
+        getMovie(selectedIndex ?? 0)
     
     }
     
-    func getMovie(){
-        
-        
-        let player = AVPlayer(url: URL(fileURLWithPath: Bundle.main.path(forResource: "y2mate.com - The Godfather Trailer HD_1080p", ofType: "mp4" )!))
-        let vc = AVPlayerViewController()
-        vc.player = player
-        present(vc,animated: true)
-        
+    func getMovie(_ index:Int) {
+        if index != 0 {
+            let player = AVPlayer(url: URL(fileURLWithPath: Bundle.main.path(forResource: "\(index)", ofType: "mp4" )!))
+            let vc = AVPlayerViewController()
+            vc.player = player
+            present(vc,animated: true)
+        }
     }
 
 }
